@@ -1,0 +1,46 @@
+.hidden{
+    margin: auto;
+    width: 40%;
+    height: 30%;
+    background-color:white;
+    
+}
+body{
+    background-color:bisque ;
+}
+
+.main{
+    width: 50%;
+    height: 150%;
+    background-color: aliceblue;
+    margin: auto;
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 2%;
+    
+}
+.fit{
+    width: 70%;
+    float: right;
+    
+}
+#Address{
+    height: 25%;
+}
+#quali{
+    margin-left: 8%;
+}
+#sp1{
+    margin-left: 8%;
+}
+.sp{
+    margin-left: 28%;
+}
+#submit{
+    text-decoration-color: white;
+    background-color: rgb(52, 109, 52);
+}
+table{
+    border: 5px solid black;
+    width: 100%;
+}

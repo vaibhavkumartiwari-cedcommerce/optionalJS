@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        
+        
+    <div class="main">
+        <form  onsubmit="check(event)">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" class="fit" placeholder="Enter you first name">
+            <br>
+            <br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" class="fit" placeholder="Enter you last name">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="fit" placeholder="it should contain @">
+            <br>
+            <br>
+            <label for="mobile">Mobile:</label>
+            <input type="number" id="mobile" class="fit" placeholder="only 10 digits are allowed">
+            <br>
+            <br>
+            <label for="gender">gender:</label>
+            <span class="fit">
+            
+            <input type="radio" name="gender" value="Male" id="male">
+            male
+            <input type="radio" name="gender" value="Female" id="female">
+            female
+            
+            </span>
+            <br>
+            <br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" class="fit">
+            <br>
+            <br>
+            <label for="Address">Address:</label>
+            <textarea name="Address" id="Address" class="fit" cols="30" rows="10"></textarea>
+            <br><br><br><br><br><br><br><br><br>
+            
+
+            <label for="city">City:</label>
+            <input type="text" id="city" class="fit">
+            <br>
+            <br>
+            <label for="pin">Area Pin:</label>
+            <input type="text" id="pin" class="fit">
+            <br>
+            <br>
+            <label for="state">State:</label>
+            <input type="text" id="state" class="fit">
+            <br>
+            <br>
+            <label for="quali">Qualifications:</label>
+            <select id="quali" name="quali">
+                <option value="">select qualification</option>
+                <option value="Intermediate">Internediate</option>
+                <option value="Graduate">Graduate</option>
+                <option value="Post Graduate">Post Graduate</option>
+              </select>
+              <br>
+              <br>
+              <label for="special">Specialization:</label>
+              <input type="checkbox" name="special" id="sp1">
+              Computer Science
+              <br>
+              <input type="checkbox" name="special" id="sp2" class="sp">
+              information Technology
+              <br>
+              <input type="checkbox" name="special" id="sp3" class="sp">
+              Computer Architecture
+              <br>
+              <input type="checkbox" name="special" id="sp4" class="sp">
+              Tele Communication
+              <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="fit">
+            <br>
+            <br>
+            <label ><button id="submit" >Register:</button></label>
+            
+        
+        </div>
+        <br> <br>
+       <div class="hidden" id="hide">
+   
+       
+       
+       </div>
+
+        </form>
+        
+    
+
+
+    
+
+    <script src="code.js">
+        
+    </script>
+    </body>
+</html>
